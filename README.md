@@ -12,7 +12,6 @@ docker run -it \
    -v ${HOME}/.pidgin:/home/admin/config \
    -v ${HOME}/Shared:/Shared \
    --privileged \
-   --rm \
    --hostname wtimedbs001.yourdomain.com.br \
    --name gbconnect \
    --user admin \
